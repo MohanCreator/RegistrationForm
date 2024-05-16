@@ -1,0 +1,67 @@
+.registrationFormContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.form-container {
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 10);
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 10px;
+}
+
+.successContainer {
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 10);
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 10px;
+}
+
+.input-container {
+  display: flex;
+  flex-direction: column;
+  height: 80px;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.but {
+  background-color: #ea580c;
+  color: white;
+  font-family: 'roboto';
+  height: 36px;
+  width: 100px;
+  border-color: transparent;
+  border-radius: 10px;
+}
+
+.heading {
+  color: #ea580c;
+  font-family: 'roboto';
+}
+
+.input {
+  color: #475569;
+  background-color: #cbd2d9;
+  border-color: transparent;
+  height: 36px;
+  border-radius: 4px;
+  margin-top: 10px;
+}
+
+.name {
+  color: #475569;
+  font-family: 'roboto';
+}
+
+.error {
+  color: #ff0b37;
+  font-family: 'roboto';
+}
